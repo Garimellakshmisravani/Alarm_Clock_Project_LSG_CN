@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    height: 100vh;
+    padding: 50px;
+    background-color: black;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#container{
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 5px solid black;
+    border-radius:100px ;
+    margin: auto 10rem;
+    min-height: 80vh;
+    padding-top: 2px;
+
+}
+#setAlarm{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#setAlarm>input{
+    background: #EF3B36;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: 200;
+    font-size: 2rem;
+    font-family: fantasy;
+    border: 1px solid black;
+    border-radius:20px ;
+    padding: 8px 10px;
+}
+#setAlarm>button{
+    background: #EF3B36;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: 200;
+    font-size: 2rem;
+    border: 1px solid black;
+    font-family: fantasy;
+    border-radius:20px ;
+    padding: 8px 10px;
+}
+.alrm-container{
+   
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.alrmCont{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0 2rem;
+    gap: 10px;
+    font-size: 28px;
+   
+}
+
+.popup{
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(196, 196, 196);
+    padding: 20vw;
+    border-radius: 100px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.off{
+    visibility: hidden;
+}
+.stop{
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius:20px ;
+}
